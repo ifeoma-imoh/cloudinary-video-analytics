@@ -1,4 +1,5 @@
 import { Cloudinary } from 'cloudinary-core';
+import "cloudinary-video-player";
 const cld = new Cloudinary({ cloud_name: 'ifeomaimoh', secure: true });
 
 function MyPlayer() {

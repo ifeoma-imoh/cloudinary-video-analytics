@@ -1,6 +1,6 @@
 import './App.css';
 import { useEffect } from 'react';
-// import 'cloudinary-video-player/dist/cld-video-player.min.css';
+import 'cloudinary-video-player/dist/cld-video-player.min.css';
 import MyPlayer from './components/VideoPlayer';
 export default function App() {
   useEffect(() => {
